@@ -6,8 +6,5 @@ loader = Zeitwerk::Loader.new
 loader.push_dir('./lib')
 loader.setup
 
-Types::Student.new(
-  name: 'John',
-  login: 'sadfa',
-  password: 'John'
-)
+p Mutation.new.resolve({})
+p Mutation.new.resolve({ name: 'abc', login: 'abc', password: 'asdf' })
