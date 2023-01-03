@@ -5,6 +5,7 @@ GEM
       sorbet-static (= 0.5.10600)
     sorbet-runtime (0.5.10600)
     sorbet-static (0.5.10600-universal-darwin-21)
+    zeitwerk (2.6.6)
 
 PLATFORMS
   arm64-darwin-21
@@ -12,6 +13,7 @@ PLATFORMS
 DEPENDENCIES
   sorbet
   sorbet-runtime
+  zeitwerk
 
 RUBY VERSION
    ruby 3.1.2p20
